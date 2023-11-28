@@ -8,7 +8,7 @@ COPY package*.json .
 RUN npm install
 
 COPY public public/
-COPY src/*.js src/
+COPY workspace/*.js workspace/
 
 EXPOSE 8080
 
